@@ -1,8 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  height: 100px;
+  padding: 10px;
 }
 
 .trybewarts-login {
   display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+}
+
+.form-principal {
+  display: flex;
+  width: 675px;
 }
