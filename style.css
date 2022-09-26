@@ -32,4 +32,5 @@ h1 {
 .form-principal {
   display: flex;
   width: 675px;
+  flex-direction: column;
 }
