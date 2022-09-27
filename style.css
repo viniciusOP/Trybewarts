@@ -38,3 +38,8 @@ h1 {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#house {
+  display: inline;
+  width: 181px;
+}
