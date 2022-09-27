@@ -13,13 +13,27 @@
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" />
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form class="trybewarts-login">
-            <input name="email" placeholder="Email" id="email">
-            <input name="password" placeholder="Senha" id="password">
-            <button id="login-button">Entrar</button>
+            <label for="input-email">
+                <input type="text" id="input-email" name="email" placeholder="Email">
+            </label>
+            <label for="input-password">
+                <input type="password" id="input-password" name="password" placeholder="Senha">
+            </label>
+            <button type="submit" id="login-button">Entrar</button>
         </form>
     </header>
     <main class="main-content">
-        <form id="evaluation-form" class="form-principal"></form>
+        <form id="evaluation-form" class="form-principal">
+            <label for="input-name">
+                <input type="text" id="input-name" name="name" placeholder="Nome">
+            </label>
+            <label for="input-lastname">
+                <input type="text" id="input-lastname" name="lastname" placeholder="Sobrenome">
+            </label>
+            <label for="input-email">
+                <input type="text" id="input-email" name="email" placeholder="Email">
+            </label>
+        </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo da Trybewarts" />
     </main>
 </body>
