@@ -4,7 +4,20 @@
 }
 
 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #dbd1b3;
+}
+
+footer {
+  background-color: #5b5847;
+  bottom: 0;
+  color: #dbd1b3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  padding: 15px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 .header {
@@ -15,7 +28,7 @@ h1 {
 }
 
 .trybewarts-header-logo {
-  height: 80px;
+  height: 70px;
   padding: 10px;
 }
 
