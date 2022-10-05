@@ -4,18 +4,18 @@
 }
 
 h1 {
-  color: whitesmoke;
+  color: #dbd1b3;
 }
 
 .header {
-  display: flex;
-  background-color: rgb(50, 167, 145);
-  justify-content: space-between;
   align-items: center;
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
 }
 
 .trybewarts-header-logo {
-  height: 100px;
+  height: 80px;
   padding: 10px;
 }
 
@@ -23,6 +23,32 @@ h1 {
   display: flex;
   padding: 10px;
   align-items: center;
+}
+
+.trybewarts-login input {
+  border-radius: 8px;
+  border-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 15px;
+  width: 75%;
+}
+
+.trybewarts-login button {
+  background-color: rgba(109, 0, 209);
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 1000;
+  height: 40px;
+  padding: 0 15px;
+  width: 35%;
+}
+
+.trybewarts-login button:hover {
+  background-color: rgb(109, 0, 190);
 }
 
 .main-content {
