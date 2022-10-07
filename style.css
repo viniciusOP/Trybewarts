@@ -3,7 +3,12 @@
   margin: 0;
 }
 
+body {
+  background-color: rgb(233, 235, 238);
+}
+
 h1 {
+  display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #dbd1b3;
 }
@@ -15,7 +20,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800;
   padding: 15px 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100%;
 }
@@ -28,6 +33,7 @@ footer {
 }
 
 .trybewarts-header-logo {
+  display: flex;
   height: 70px;
   padding: 10px;
 }
@@ -45,7 +51,7 @@ footer {
   font-weight: 600;
   height: 40px;
   padding: 0 15px;
-  width: 75%;
+  width: 95%;
 }
 
 .trybewarts-login button {
@@ -61,17 +67,28 @@ footer {
 }
 
 .trybewarts-login button:hover {
-  background-color: rgb(109, 0, 190);
+  background-color: rgb(109, 0, 150);
 }
 
 .main-content {
   display: flex;
 }
 
-.form-principal {
+#evaluation-form {
+  background-color: rgb(233, 235, 238);
   display: flex;
-  width: 675px;
   flex-direction: column;
+  padding: 15px;
+  width: 675px;
+}
+
+#evaluation-form button {
+  background-color: rgba(109, 0, 209);
+  border: none;
+}
+
+#evaluation-form button:hover {
+  background-color: rgb(109, 0, 150);
 }
 
 #trybewarts-forms-logo {
@@ -80,5 +97,5 @@ footer {
 
 #house {
   display: inline;
-  width: 141px;
+  width: 190px;
 }
