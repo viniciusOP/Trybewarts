@@ -8,6 +8,13 @@ Este projeto trata-se de uma página WEB(desktop) onde foi colocado em prática 
 Front-end:
 > Desenvolvido usando: HTML5, CSS3, JavaScript, Bootstrap
 
-## Aplicação funcionando
+## Login Cadastrado 
+
+Email: tryber@teste.com<br />
+senha: 123456
+
+> Olá, Tryber!
+
+## Link Aplicação 
 
 <a href="https://viniciusop.github.io/trybewarts/">https://viniciusop.github.io/trybewarts/</a>
