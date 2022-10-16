@@ -10,4 +10,4 @@ Front-end:
 
 ## Aplicação funcionando
 
-<a href="https://viniciusop.github.io/trybewarts/">
+<a href="https://viniciusop.github.io/trybewarts/">https://viniciusop.github.io/trybewarts/</a>
